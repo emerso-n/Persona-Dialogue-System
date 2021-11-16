@@ -1,0 +1,216 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7e99d2aa6db43f2478d3198a0ca05313, type: 3}
+  m_Name: TestDialogue
+  m_EditorClassIdentifier: 
+  dialogueInfo:
+  - character: {fileID: 11400000, guid: e262628979374374ca9c78d134499f49, type: 2}
+    charText: Hello everyone, and welcome to the Near Perfect Persona Dialogue System
+      RecreationTM exhibition video!
+    characterEmotion: 1
+    continueCheck: 0
+  - character: {fileID: 11400000, guid: e262628979374374ca9c78d134499f49, type: 2}
+    charText: I'm SUPER excited that all uhhh...
+    characterEmotion: 3
+    continueCheck: 1
+  - character: {fileID: 11400000, guid: e262628979374374ca9c78d134499f49, type: 2}
+    charText: '...max like 10 people are here to see what I''ve spent the last month
+      and a half of my life on!'
+    characterEmotion: 1
+    continueCheck: 1
+  - character: {fileID: 11400000, guid: dcbb5bf5c792b71498b2fb1c38ad7fd7, type: 2}
+    charText: First off, I have to thank Dev!Bird on Youtube for the tutorials he
+      produced that made this whole thing possible.
+    characterEmotion: 1
+    continueCheck: 0
+  - character: {fileID: 11400000, guid: dcbb5bf5c792b71498b2fb1c38ad7fd7, type: 2}
+    charText: I am big coding nub and would have never figured any of this out on
+      my own...
+    characterEmotion: 1
+    continueCheck: 0
+  - character: {fileID: 11400000, guid: dcbb5bf5c792b71498b2fb1c38ad7fd7, type: 2}
+    charText: so all credit to him and everyone else I yoinked code from across the
+      internet.
+    characterEmotion: 1
+    continueCheck: 0
+  - character: {fileID: 11400000, guid: dcbb5bf5c792b71498b2fb1c38ad7fd7, type: 2}
+    charText: First off, I have to thank Dev!Bird on Youtube for the tutorials he
+      produced that made this whole thing possible.
+    characterEmotion: 1
+    continueCheck: 0
+  - character: {fileID: 11400000, guid: dcbb5bf5c792b71498b2fb1c38ad7fd7, type: 2}
+    charText: First off, I have to thank Dev!Bird on Youtube for the tutorials he
+      produced that made this whole thing possible.
+    characterEmotion: 1
+    continueCheck: 0
+  - character: {fileID: 11400000, guid: dcbb5bf5c792b71498b2fb1c38ad7fd7, type: 2}
+    charText: First off, I have to thank Dev!Bird on Youtube for the tutorials he
+      produced that made this whole thing possible.
+    characterEmotion: 1
+    continueCheck: 0
+  - character: {fileID: 11400000, guid: dcbb5bf5c792b71498b2fb1c38ad7fd7, type: 2}
+    charText: 'I am big coding nub and would have never figured any of this out on
+      my own... '
+    characterEmotion: 1
+    continueCheck: 0
+  - character: {fileID: 11400000, guid: dcbb5bf5c792b71498b2fb1c38ad7fd7, type: 2}
+    charText: so all credit to him and everyone else I yoinked code from across the
+      internet.
+    characterEmotion: 0
+    continueCheck: 1
+  - character: {fileID: 11400000, guid: 0fa4ad0ebd36203438785023370a94bd, type: 2}
+    charText: Anyway, let's get started.
+    characterEmotion: 1
+    continueCheck: 0
+  - character: {fileID: 11400000, guid: 0fa4ad0ebd36203438785023370a94bd, type: 2}
+    charText: As you can see we have here some dialogue boxes that display character
+      names, wiggle around...
+    characterEmotion: 1
+    continueCheck: 1
+  - character: {fileID: 11400000, guid: 0fa4ad0ebd36203438785023370a94bd, type: 2}
+    charText: Kinda bounce open when called, display that little bumper thing after
+      a second, and have animated character portraits next to them.
+    characterEmotion: 1
+    continueCheck: 1
+  - character: {fileID: 11400000, guid: 0fa4ad0ebd36203438785023370a94bd, type: 2}
+    charText: Animated character portraits that can change emotion and everything.
+      I think that was the hardest thing to figure out of all of this.
+    characterEmotion: 0
+    continueCheck: 1
+  - character: {fileID: 11400000, guid: 0fa4ad0ebd36203438785023370a94bd, type: 2}
+    charText: It would be a pain in the ass to have to actually code every conversation,
+      so instead we do it in the menu to the right.
+    characterEmotion: 0
+    continueCheck: 1
+  - character: {fileID: 11400000, guid: 0fa4ad0ebd36203438785023370a94bd, type: 2}
+    charText: There you can set which character is talking, what they're going to
+      say, what emotion they should display...
+    characterEmotion: 1
+    continueCheck: 1
+  - character: {fileID: 11400000, guid: 0fa4ad0ebd36203438785023370a94bd, type: 2}
+    charText: and even whether to play the new speaker animation or just the little
+      continue bounce.
+    characterEmotion: 0
+    continueCheck: 1
+  - character: {fileID: 11400000, guid: 0fa4ad0ebd36203438785023370a94bd, type: 2}
+    charText: '"But how does the game know what to do with "Naoto?"" you probably
+      aren''t asking but here we go imma explain. '
+    characterEmotion: 1
+    continueCheck: 1
+  - character: {fileID: 11400000, guid: 0fa4ad0ebd36203438785023370a94bd, type: 2}
+    charText: Basically the whole backbone of this system are these custom character
+      profiles that the dialogueBase,
+    characterEmotion: 0
+    continueCheck: 1
+  - character: {fileID: 11400000, guid: 0fa4ad0ebd36203438785023370a94bd, type: 2}
+    charText: and then dialogueManager script take information from.
+    characterEmotion: 0
+    continueCheck: 1
+  - character: {fileID: 11400000, guid: 0fa4ad0ebd36203438785023370a94bd, type: 2}
+    charText: If you would just switch the inspector view...
+    characterEmotion: 3
+    continueCheck: 1
+  - character: {fileID: 11400000, guid: 0fa4ad0ebd36203438785023370a94bd, type: 2}
+    charText: As you can see, you set the characters name, their portrait and face
+      locations, whether or not they are a shadow--
+    characterEmotion: 0
+    continueCheck: 1
+  - character: {fileID: 11400000, guid: 60a087669dc5ea343ad67744b265baba, type: 2}
+    charText: Because shadow characters get a special yellow text box like this.
+    characterEmotion: 0
+    continueCheck: 0
+  - character: {fileID: 11400000, guid: 0fa4ad0ebd36203438785023370a94bd, type: 2}
+    charText: Yes-
+    characterEmotion: 4
+    continueCheck: 0
+  - character: {fileID: 11400000, guid: 60a087669dc5ea343ad67744b265baba, type: 2}
+    charText: It may be a little gimmicky but I also spent time making it so its staying
+      in I don't care.
+    characterEmotion: 1
+    continueCheck: 0
+  - character: {fileID: 11400000, guid: 0fa4ad0ebd36203438785023370a94bd, type: 2}
+    charText: Uh, ye-
+    characterEmotion: 3
+    continueCheck: 0
+  - character: {fileID: 11400000, guid: 60a087669dc5ea343ad67744b265baba, type: 2}
+    charText: By the way, shadow naoto's mouth open sprites are fucking gross someone
+      please fix this dear god.
+    characterEmotion: 1
+    continueCheck: 0
+  - character: {fileID: 11400000, guid: 0fa4ad0ebd36203438785023370a94bd, type: 2}
+    charText: AHEM.
+    characterEmotion: 2
+    continueCheck: 0
+  - character: {fileID: 11400000, guid: 0fa4ad0ebd36203438785023370a94bd, type: 2}
+    charText: And there are also spaces to put all the different character sprites
+      used for animation.
+    characterEmotion: 0
+    continueCheck: 1
+  - character: {fileID: 11400000, guid: 0fa4ad0ebd36203438785023370a94bd, type: 2}
+    charText: The character profiles are actually a custom scriptable object--which
+      is basically a super variable that holds a bunch of different variables.
+    characterEmotion: 0
+    continueCheck: 1
+  - character: {fileID: 11400000, guid: 0fa4ad0ebd36203438785023370a94bd, type: 2}
+    charText: These variables dont do anything by themselves, but if you direct a
+      script to access them,
+    characterEmotion: 0
+    continueCheck: 1
+  - character: {fileID: 11400000, guid: 0fa4ad0ebd36203438785023370a94bd, type: 2}
+    charText: 'it will take and input them into the moving parts of your game. '
+    characterEmotion: 0
+    continueCheck: 1
+  - character: {fileID: 11400000, guid: 0fa4ad0ebd36203438785023370a94bd, type: 2}
+    charText: This is what the dialogueManager script does. It cycles through each
+      dialogue element in the current dialogue object by making it into a queue, and
+      then dequeuing a piece with each button press.
+    characterEmotion: 0
+    continueCheck: 1
+  - character: {fileID: 11400000, guid: 0fa4ad0ebd36203438785023370a94bd, type: 2}
+    charText: by making it into a queue, and then dequeuing a piece with each button
+      press.
+    characterEmotion: 0
+    continueCheck: 1
+  - character: {fileID: 11400000, guid: 0fa4ad0ebd36203438785023370a94bd, type: 2}
+    charText: If you would just open up the scripts I can walk you through each step--
+    characterEmotion: 1
+    continueCheck: 1
+  - character: {fileID: 11400000, guid: b38bf93d6d17e4c4f9152f828983bb24, type: 2}
+    charText: Psst--
+    characterEmotion: 0
+    continueCheck: 0
+  - character: {fileID: 11400000, guid: b38bf93d6d17e4c4f9152f828983bb24, type: 2}
+    charText: Nobody cares.
+    characterEmotion: 1
+    continueCheck: 1
+  - character: {fileID: 11400000, guid: 0fa4ad0ebd36203438785023370a94bd, type: 2}
+    charText: 'Ah, well anyway... '
+    characterEmotion: 3
+    continueCheck: 0
+  - character: {fileID: 11400000, guid: 0fa4ad0ebd36203438785023370a94bd, type: 2}
+    charText: That's the basics of the system. It really took me a while to make...
+    characterEmotion: 1
+    continueCheck: 1
+  - character: {fileID: 11400000, guid: 0fa4ad0ebd36203438785023370a94bd, type: 2}
+    charText: and I'm super proud of actually seeing it through to the end. Thank
+      you again to--
+    characterEmotion: 1
+    continueCheck: 1
+  - character: {fileID: 11400000, guid: 60a087669dc5ea343ad67744b265baba, type: 2}
+    charText: 'And now we''re going to show you what happens when you reach the end
+      of the dialogue queue. '
+    characterEmotion: 1
+    continueCheck: 0
+  - character: {fileID: 11400000, guid: 0fa4ad0ebd36203438785023370a94bd, type: 2}
+    charText: Wait what, I'm not do--
+    characterEmotion: 4
+    continueCheck: 0

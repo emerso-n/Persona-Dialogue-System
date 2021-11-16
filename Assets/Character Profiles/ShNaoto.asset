@@ -1,0 +1,69 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: de96142db9930664c8ebc66d76258c61, type: 3}
+  m_Name: ShNaoto
+  m_EditorClassIdentifier: 
+  myName: Shadow Naoto
+  basePortrait: {fileID: 21300000, guid: f57ff6b9d860d59459ae58159e563556, type: 3}
+  xBase: -382
+  yBase: 25
+  xFace: -407
+  yFace: 43
+  shadowStatus: 1
+  emotionBase:
+    neutralBase: {fileID: 21300000, guid: 9aab7b8475aa0db40ba13773ce7caca2, type: 3}
+    happyBase: {fileID: 21300000, guid: 397fe768afa843b4684a691c917ae318, type: 3}
+    angeryBase: {fileID: 0}
+    sadBase: {fileID: 0}
+    surprisedBase: {fileID: 0}
+    hurtBase: {fileID: 0}
+    blushBase: {fileID: 0}
+  emotionEyes:
+    neutralEyes: {fileID: 21300000, guid: 5a471cbf393087b4f88af8966cb91e2d, type: 3}
+    happyEyes: {fileID: 21300000, guid: 777987efdb8c59b499f596a97221fd66, type: 3}
+    angeryEyes: {fileID: 0}
+    sadEyes: {fileID: 0}
+    surprisedEyes: {fileID: 0}
+    hurtEyes: {fileID: 0}
+    blushEyes: {fileID: 0}
+  emotionBlink:
+    neutralBlink: {fileID: 21300000, guid: 21c492067e4bab44d9798d0606d78a6c, type: 3}
+    happyBlink: {fileID: 21300000, guid: f2db37c6c2ac49f4f86d03fe323c0292, type: 3}
+    angeryBlink: {fileID: 0}
+    sadBlink: {fileID: 0}
+    surprisedBlink: {fileID: 0}
+    hurtBlink: {fileID: 0}
+    blushBlink: {fileID: 0}
+  emotionMouth1:
+    neutralMouth1: {fileID: 21300000, guid: 73ecf4d6d33b97d428468485ca5dcb7e, type: 3}
+    happyMouth1: {fileID: 21300000, guid: 73ecf4d6d33b97d428468485ca5dcb7e, type: 3}
+    angeryMouth1: {fileID: 0}
+    sadMouth1: {fileID: 0}
+    surprisedMouth1: {fileID: 0}
+    hurtMouth1: {fileID: 0}
+    blushMouth1: {fileID: 0}
+  emotionMouth2:
+    neutralMouth2: {fileID: 21300000, guid: 94a34e4ccd3f023498e91ac177c1e81d, type: 3}
+    happyMouth2: {fileID: 21300000, guid: 94a34e4ccd3f023498e91ac177c1e81d, type: 3}
+    angeryMouth2: {fileID: 0}
+    sadMouth2: {fileID: 0}
+    surprisedMouth2: {fileID: 0}
+    hurtMouth2: {fileID: 0}
+    blushMouth2: {fileID: 0}
+  emotionMouth3:
+    neutralMouth3: {fileID: 21300000, guid: 682f83ce00a2e4f46b4a2030b6879dc1, type: 3}
+    happyMouth3: {fileID: 21300000, guid: 682f83ce00a2e4f46b4a2030b6879dc1, type: 3}
+    angeryMouth3: {fileID: 0}
+    sadMouth3: {fileID: 0}
+    surprisedMouth3: {fileID: 0}
+    hurtMouth3: {fileID: 0}
+    blushMouth3: {fileID: 0}
