@@ -156,13 +156,13 @@ public class DialogueManager : MonoBehaviour
         slideDistance = 12;
         while (slideDistance >= 0)
             {
-            Vector3 tempBase = new Vector3(xSprite-slideDistance, ySprite, 0);
-            dialoguePortrait.rectTransform.anchoredPosition = tempBase;
-            Vector3 temp = new Vector3(xEyes-slideDistance, yEyes, 0);
-            dialogueEyes.rectTransform.anchoredPosition = temp;
-            dialogueMouths.rectTransform.anchoredPosition = temp;
+            dialoguePortrait.rectTransform.anchoredPosition = new Vector3(xSprite - slideDistance, ySprite, 0);
+
+            dialogueEyes.rectTransform.anchoredPosition = new Vector3(xEyes - slideDistance, yEyes, 0);
+            dialogueMouths.rectTransform.anchoredPosition = new Vector3(xEyes - slideDistance, yEyes, 0);
+
             slideDistance += -4;
-            yield return new WaitForEndOfFrame();
+            yield return new WaitForSeconds(.05f);
         }
     }
 
@@ -173,7 +173,7 @@ public class DialogueManager : MonoBehaviour
         {
             dialoguePortrait.color = new Color(1f, 1f, 1f, spriteOpacity);
             spriteOpacity += 0.33f;
-            yield return new WaitForEndOfFrame();
+            yield return new WaitForSeconds(.05f);
         }
     }
 
